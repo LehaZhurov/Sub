@@ -15,7 +15,7 @@ composer install
 Затем добавьте новую запись в свой crontab для запуска `callme.php` каждую минуту.
 
 ````
-* * * * * php cron/scheduler.php 1>> /dev/null 2>&1
+* * * * * php cron/callme.php 1>> /dev/null 2>&1
 ````
 ## Шаг 4:
 Для проверки работоспособности заданий нужно
