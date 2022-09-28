@@ -1,0 +1,16 @@
+{
+    "require": {
+        "illuminate/database": "^9.31",
+        "vlucas/phpdotenv": "^5.4",
+        "illuminate/events": "^9.31",
+        "fzaninotto/faker": "^1.5",
+        "peppeocchi/php-cron-scheduler": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+             "Support\\": "support",
+             "Database\\": "database",
+             "App\\" : "app"
+         }
+    }
+}

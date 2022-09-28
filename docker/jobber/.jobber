@@ -1,0 +1,5 @@
+"---
+- name: HelloWorld
+  cmd: echo hello world
+  time: 1
+"
